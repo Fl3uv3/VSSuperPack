@@ -49,7 +49,7 @@
     <Image Include="app.ico">
       <Filter>Fichiers de ressources</Filter>
     </Image>
-    <Image Include="Publish\Wizards\RelentlessXWizard.ico">
+    <Image Include="InstallFiles\Wizards\RelentlessXWizard.ico">
       <Filter>InstallFiles</Filter>
     </Image>
   </ItemGroup>
@@ -64,13 +64,13 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Publish\Addins\FunctDescript.AddIn">
+    <None Include="InstallFiles\Addins\FunctDescript.AddIn">
       <Filter>InstallFiles</Filter>
     </None>
-    <None Include="Publish\Wizards\RelentlessXWizard.vsdir">
+    <None Include="InstallFiles\Wizards\RelentlessXWizard.vsdir">
       <Filter>InstallFiles</Filter>
     </None>
-    <None Include="Publish\Wizards\RelentlessXWizard.vsz">
+    <None Include="InstallFiles\Wizards\RelentlessXWizard.vsz">
       <Filter>InstallFiles</Filter>
     </None>
   </ItemGroup>

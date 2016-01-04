@@ -129,7 +129,7 @@ regasm.exe "$(VisualStudioDir)\Addins\$(TargetFileName)" /codebase /tlb
   </ItemGroup>
   <ItemGroup>
     <Image Include="app.ico" />
-    <Image Include="Publish\Wizards\RelentlessXWizard.ico" />
+    <Image Include="InstallFiles\Wizards\RelentlessXWizard.ico" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MyForm.resx">
@@ -137,9 +137,9 @@ regasm.exe "$(VisualStudioDir)\Addins\$(TargetFileName)" /codebase /tlb
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Publish\Addins\FunctDescript.AddIn" />
-    <None Include="Publish\Wizards\RelentlessXWizard.vsdir" />
-    <None Include="Publish\Wizards\RelentlessXWizard.vsz" />
+    <None Include="InstallFiles\Addins\FunctDescript.AddIn" />
+    <None Include="InstallFiles\Wizards\RelentlessXWizard.vsdir" />
+    <None Include="InstallFiles\Wizards\RelentlessXWizard.vsz" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
